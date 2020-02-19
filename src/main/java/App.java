@@ -13,6 +13,7 @@ public class App {
         example3();
         example9();
         example10();
+        example11();
 
     }
 
@@ -123,6 +124,17 @@ public class App {
         String s5="flag";
 
         int ans =s5.compareTo("Air");
+
+        System.out.println("2 because \"h\" is 2 times greater than \"f\" ==> "+ans);
+
+    }
+
+    public static void example11(){
+
+        String s1="Air";
+        String s5="air";
+
+        int ans =s5.compareTo(s1);
 
         System.out.println("2 because \"h\" is 2 times greater than \"f\" ==> "+ans);
 
