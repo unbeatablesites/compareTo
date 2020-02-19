@@ -8,6 +8,7 @@ public class App {
         example5();
         example6();
         example7();
+        example8();
         System.out.println("^==================================================Non matching numbers that equal less than 0 (minus number) ==================================================^");
         example3();
 
@@ -72,6 +73,17 @@ public class App {
 
         String a = "ok";
         String b = "ok1111";
+
+        int ans = a.compareTo("okokokok");
+
+        System.out.println("This gives a negative number after the initial match and returns the number of strings after the match in minus numbers ==> "+ans);
+
+    }
+
+    public static void example8(){
+
+        String a = "ok";
+        String b = "111177ok";
 
         int ans = a.compareTo("okokokok");
 
