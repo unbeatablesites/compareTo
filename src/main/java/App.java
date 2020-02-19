@@ -3,9 +3,10 @@ public class App {
     public static void main(String[] args) {
         example1();
         example4();
-        System.out.println("^===========================================Matching numbers that equal 0 ==================================================^");
+        System.out.println("^===================================================Matching numbers that equal 0 ==================================================^");
         example2();
         example5();
+        example6();
         System.out.println("^==================================================Non matching numbers that equal less than 0 (minus number) ==================================================^");
         example3();
 
@@ -54,6 +55,18 @@ public class App {
         System.out.println("This will return a negative number because we are comparing and empty string to an actual string. this is another way to check the length of a string ==> "+ans);
 
     }
+
+    public static void example6(){
+
+        String a = "ok";
+        String b = "ok1111";
+
+        int ans = a.compareTo(b);
+
+        System.out.println("This gives a negative number after the initial match and returns the number of strings after the match in minus numbers ==> "+ans);
+
+    }
+
 
     public static void example4(){
 
