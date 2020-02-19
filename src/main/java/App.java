@@ -3,6 +3,7 @@ public class App {
     public static void main(String[] args) {
         example1();
         example4();
+        System.out.println("^========Matching numbers that equal 0 ========^");
         example2();
         example5();
         example3();
