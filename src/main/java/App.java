@@ -12,6 +12,7 @@ public class App {
         System.out.println("^==================================================Non matching numbers that equal less than 0 (minus number) ==================================================^");
         example3();
         example9();
+        example10();
 
     }
 
@@ -115,4 +116,16 @@ public class App {
         System.out.println("2 because \"h\" is 2 times greater than \"f\" ==> "+ans);
 
     }
+
+    public static void example10(){
+
+        String s1="Air";
+        String s5="flag";
+
+        int ans =s5.compareTo("Air");
+
+        System.out.println("2 because \"h\" is 2 times greater than \"f\" ==> "+ans);
+
+    }
+
 }
