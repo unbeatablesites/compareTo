@@ -13,7 +13,7 @@ public class App {
 
        int ans = a.compareTo("apple");
 
-        System.out.println(ans);
+        System.out.println("This will compare if the two strings are equal. If equal will return int 0 else positive or negative number ==> "+ans);
 
     }
 
