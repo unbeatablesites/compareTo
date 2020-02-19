@@ -14,6 +14,7 @@ public class App {
         example9();
         example10();
         example11();
+        example12();
 
     }
 
@@ -138,6 +139,17 @@ public class App {
 
         System.out.println("2 because \"h\" is 2 times greater than \"f\" ==> "+ans);
 
+    }
+
+    public static void example12(){
+
+        String str1 = "geeks";
+        String str2 = "gEEkS";
+
+        int ans =str1.compareTo(str2);
+
+        System.out.print("Difference of geeks and gEEkS (case sensitive) : ");
+        System.out.println(str1.compareTo(str2));
     }
 
 }
