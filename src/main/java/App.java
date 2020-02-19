@@ -3,10 +3,10 @@ public class App {
     public static void main(String[] args) {
         example1();
         example4();
-        System.out.println("^========Matching numbers that equal 0 ========^");
+        System.out.println("^===========================================Matching numbers that equal 0 ==================================================^");
         example2();
         example5();
-        System.out.println("^========Non matching numbers that equal less than 0 (minus number) ========^");
+        System.out.println("^==================================================Non matching numbers that equal less than 0 (minus number) ==================================================^");
         example3();
 
     }
